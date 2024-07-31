@@ -1,0 +1,112 @@
+body{
+        font-family: 'Trebuchet MS', geneva !important;
+    }
+.note-text {
+    color: #000!important;
+    padding: .75rem 1.25rem;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: 1px solid #e3e6f0;
+    border-radius: .35rem;
+    font-size: medium;
+}
+a {
+letter-spacing:.5px!important;
+color:#fff!important;
+text-decoration:none;
+background-color:transparent;
+font-size: 18px;
+}
+
+.btn-group > .btn:not(:first-child),.ui-datepicker-buttonpane .btn-group > button:not(:first-child),.sp-container .btn-group > button:not(:first-child),.btn-group > .btn-group:not(:first-child) > .btn,.ui-datepicker-buttonpane .btn-group > .btn-group:not(:first-child) > button,.sp-container .btn-group > .btn-group:not(:first-child) > button {
+border-top-left-radius:0;
+border-bottom-left-radius:0;
+}
+
+.btn-group > .btn:not(:first-child),.ui-datepicker-buttonpane .btn-group > button:not(:first-child),.sp-container .btn-group > button:not(:first-child),.btn-group > .btn-group:not(:first-child) {
+margin-left:-1px;
+}
+
+.btn-group > .btn,.ui-datepicker-buttonpane .btn-group > button,.sp-container .btn-group > button,.btn-group-vertical > .btn,.ui-datepicker-buttonpane .btn-group-vertical > button,.sp-container .btn-group-vertical > button {
+position:relative;
+flex:1 1 auto;
+}
+
+button:not(:disabled),[type='button']:not(:disabled),[type='reset']:not(:disabled),[type='submit']:not(:disabled) {
+cursor:pointer;
+}
+
+.btn-brand-02 {
+background-color:#042893;
+color:#fff;
+border-color:#042893;
+}
+
+.btn,.ui-datepicker-buttonpane button,.sp-container button {
+display:inline-block;
+font-weight:400;
+text-align:center;
+vertical-align:middle;
+user-select:none;
+border:1px solid transparent;
+font-size:.875rem;
+line-height:1.5;
+border-radius:.25rem;
+transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+color:#fff!important;
+padding:.46875rem .9375rem;
+}
+
+button,[type='button'],[type='reset'],[type='submit'] {
+-webkit-appearance:button;
+}
+
+button,select {
+text-transform:none;
+}
+
+button,input {
+overflow:visible;
+}
+
+:root {
+--blue:#0168fa;
+--indigo:#5b47fb;
+--purple:#6f42c1;
+--pink:#f10075;
+--red:#dc3545;
+--orange:#fd7e14;
+--yellow:#ffc107;
+--green:#10b759;
+--teal:#0cc;
+--cyan:#00b8d4;
+--white:#fff;
+--gray:#7987a1;
+--gray-dark:#3b4863;
+--primary:#0168fa;
+--secondary:#7987a1;
+--success:#10b759;
+--info:#00b8d4;
+--warning:#ffc107;
+--danger:#dc3545;
+--light:#f4f5f8;
+--dark:#3b4863;
+--breakpoint-xs:0;
+--breakpoint-sm:576px;
+--breakpoint-md:768px;
+--breakpoint-lg:992px;
+--breakpoint-xl:1200px;
+--font-family-sans-serif:0;
+--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;
+}
+.btn svg, .ui-datepicker-buttonpane button svg, .sp-container button svg {
+    width: 24px;
+    height: 24px;
+    stroke-width: 2.5px;
+    margin-top: -2px;
+}
